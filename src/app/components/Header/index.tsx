@@ -10,7 +10,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className="container mx-auto flex justify-between items-center py-[12px]">
+    <div className="container mx-auto flex justify-evenly items-center py-[12px]">
       <div className="flex items-center">
         <Link href="/">
           <Image src={logo} alt="Logo" width={100} height={21} />
