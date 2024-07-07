@@ -2,14 +2,11 @@ import Link from "next/link"
 import logo from "../../images/Frame.svg"
 import logoInsta from "../../images/instaBottom.svg"
 import logoFacebook from "../../images/faceBottom.svg"
-
-
-
 import Image from "next/image"
 
 const Footer = () => {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto mt-[100px]">
       <div className="flex-direction-column border-b-[1px] border-[#359740] py-[20px] mb-[20px]">
         <ul className="flex justify-between">
           <li><Link href="/products">ALL PRODUCTS</Link></li>

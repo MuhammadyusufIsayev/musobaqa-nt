@@ -10,7 +10,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className="container mx-auto flex justify-evenly items-center py-[12px]">
+    <div className="container mx-auto flex justify-evenly items-center py-[20px]">
       <div className="flex items-center">
         <Link href="/">
           <Image src={logo} alt="Logo" width={100} height={21} />
@@ -33,7 +33,7 @@ const Header = () => {
           CONTACTS
         </Link>
       </div>
-      <div className="flex gap-[12px] items-center">
+      <div className="flex gap-[20px] items-center">
         <Image src={instagram} alt="instagram" width={24} height={24} />
         <Image src={facebook} alt="facebook" width={24} height={24} />
       </div>
