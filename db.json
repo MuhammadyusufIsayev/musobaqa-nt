@@ -265,22 +265,7 @@
       "id": 4,
       "name": "SUPPLIES",
       "products": [
-        {
-          "id": 1,
-          "name": "Seeds",
-          "price": 15.99,
-          "image": "https://m.media-amazon.com/images/I/81OyZ0XQs6L._AC_SL1500_.jpg",
-          "rating": 4.5,
-          "reviews": 123
-        },
-        {
-          "id": 2,
-          "name": "Seeds",
-          "price": 15.99,
-          "image": "https://m.media-amazon.com/images/I/81OyZ0XQs6L._AC_SL1500_.jpg",
-          "rating": 4.5,
-          "reviews": 123
-        }
+        
       ]
     },
     {
