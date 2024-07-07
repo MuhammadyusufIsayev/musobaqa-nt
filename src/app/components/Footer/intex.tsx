@@ -1,7 +1,7 @@
 import Link from "next/link"
 import logo from "../../images/Frame.svg"
 import logoInsta from "../../images/instaBottom.svg"
-import logoFacebook from "../../images/faceBottom.svg"
+// import logoFacebook from "../../images/faceBottom.svg"
 
 
 
@@ -23,7 +23,7 @@ const Footer = () => {
       <div className="bottom flex justify-between items-center">
         <div className="flex">
           <Image className="mr-[10px]" src={logoInsta} alt="Logo" width={30} height={30} />
-          <Image src={logoFacebook} alt="Logo" width={30} height={30} />
+          {/* <Image src={logoFacebook} alt="Logo" width={30} height={30} /> */}
         </div>
         <p>All rights reserved</p>
       </div>
