@@ -11,26 +11,26 @@ import Link from "next/link";
 const Header = () => {
   return (
     <div className="container mx-auto flex justify-between items-center py-[12px]">
-      <div className="flex">
+      <div className="flex items-center">
         <Link href="/">
-          <Image src={logo} alt="Logo" width={97} height={21} />
+          <Image src={logo} alt="Logo" width={100} height={21} />
         </Link>
       </div>
-      <div className="flex">
-        <Link href="/products">ALL PRODUCTS</Link>
-        <Link href="/about">ABOUT SEEDRA</Link>
-        <Link href="/blog">OUR BLOG</Link>
-        <Link href="/contacts">CONTACTS</Link>
+      <div className="flex items-center">
+        <Link className="px-[16px] border-r-[1px] text-[#70737C]" href="/products">ALL PRODUCTS</Link>
+        <Link className="px-[16px] border-r-[1px]" href="/about">ABOUT SEEDRA</Link>
+        <Link className="px-[16px] border-r-[1px]" href="/blog">OUR BLOG</Link>
+        <Link className="px-[16px]" href="/contacts">CONTACTS</Link>
       </div>
-      <div className="flex">
+      <div className="flex gap-[12px] items-center">
         <Image src={instagram} alt="instagram" width={24} height={24} />
         <Image src={facebook} alt="facebook" width={24} height={24} />
       </div>
-      <div className="flex">
+      <div className="flex gap-[16px] w-[290px] border-[1px] border-[#EFEFEF] p-[12px] px-[20px] rounded-full">
         <Image src={lupa} alt="lupa" width={24} height={24} />
-        <p>Search</p>
+        <input className="w-full outline-none" type="text" placeholder="Search"/>
       </div>
-      <div className="flex">
+      <div className="flex gap-[24px]">
       <Image src={like} alt="lupa" width={24} height={24} />
       <Image src={cart} alt="lupa" width={24} height={24} />
       </div>
