@@ -1,8 +1,11 @@
 import React from 'react'
+import HomeSections from './components/HomeSections'
 
 const Home = () => {
   return (
-    <div className="container mx-auto">Home</div>
+    <div>
+      <HomeSections/>
+    </div>    
   )
 }
 
