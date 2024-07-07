@@ -17,10 +17,21 @@ const Header = () => {
         </Link>
       </div>
       <div className="flex items-center">
-        <Link className="px-[16px] border-r-[1px] text-[#70737C]" href="/products">ALL PRODUCTS</Link>
-        <Link className="px-[16px] border-r-[1px]" href="/about">ABOUT SEEDRA</Link>
-        <Link className="px-[16px] border-r-[1px]" href="/blog">OUR BLOG</Link>
-        <Link className="px-[16px]" href="/contacts">CONTACTS</Link>
+        <Link
+          className="px-[16px] border-r-[1px] text-[#70737C]"
+          href="/products"
+        >
+          ALL PRODUCTS
+        </Link>
+        <Link className="px-[16px] border-r-[1px] text-[#70737C]" href="/about">
+          ABOUT SEEDRA
+        </Link>
+        <Link className="px-[16px] border-r-[1px] text-[#70737C]" href="/blog">
+          OUR BLOG
+        </Link>
+        <Link className="px-[16px] text-[#70737C]" href="/contacts">
+          CONTACTS
+        </Link>
       </div>
       <div className="flex gap-[12px] items-center">
         <Image src={instagram} alt="instagram" width={24} height={24} />
@@ -28,11 +39,19 @@ const Header = () => {
       </div>
       <div className="flex gap-[16px] w-[290px] border-[1px] border-[#EFEFEF] p-[12px] px-[20px] rounded-full">
         <Image src={lupa} alt="lupa" width={24} height={24} />
-        <input className="w-full outline-none" type="text" placeholder="Search"/>
+        <input
+          className="w-full outline-none"
+          type="text"
+          placeholder="Search"
+        />
       </div>
       <div className="flex gap-[24px]">
-      <Image src={like} alt="lupa" width={24} height={24} />
-      <Image src={cart} alt="lupa" width={24} height={24} />
+        <Link href="/like">
+          <Image src={like} alt="lupa" width={24} height={24} />
+        </Link>
+        <Link href="/cart">
+          <Image src={cart} alt="lupa" width={24} height={24} />
+        </Link>
       </div>
     </div>
   );
