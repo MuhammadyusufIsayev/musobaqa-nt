@@ -1,5 +1,9 @@
 import Link from "next/link"
 import logo from "../../images/Frame.svg"
+import logoInsta from "../../images/instaBottom.svg"
+import logoFacebook from "../../images/faceBottom.svg"
+
+
 
 import Image from "next/image"
 
@@ -16,10 +20,10 @@ const Footer = () => {
           <li><Link href="/">Privacy Policy</Link></li>
         </ul>
       </div>
-      <div className="bottom flex justify-between">
+      <div className="bottom flex justify-between items-center">
         <div className="flex">
-          {/* <Image className="mr-[10px]" src={logoInsta} alt="Logo" width={30} height={30} />
-          <Image src={logoFacebook} alt="Logo" width={30} height={30} /> */}
+          <Image className="mr-[10px]" src={logoInsta} alt="Logo" width={30} height={30} />
+          <Image src={logoFacebook} alt="Logo" width={30} height={30} />
         </div>
         <p>All rights reserved</p>
       </div>
