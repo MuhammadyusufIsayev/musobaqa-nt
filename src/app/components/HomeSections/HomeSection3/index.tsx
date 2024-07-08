@@ -18,7 +18,7 @@ interface Product {
   name: string;
   image: string;
   price: number;
-  rating: number; // Added rating property
+  rating: number;
 }
 
 interface Category {

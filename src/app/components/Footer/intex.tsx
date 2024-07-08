@@ -17,7 +17,7 @@ const Footer = () => {
           <li><Link href="/">Privacy Policy</Link></li>
         </ul>
       </div>
-      <div className="bottom flex justify-between items-center">
+      <div className="bottom flex justify-between items-center mb-[20px]">
         <div className="flex">
           <Image className="mr-[10px]" src={logoInsta} alt="Logo" width={30} height={30} />
           <Image src={logoFacebook} alt="Logo" width={30} height={30} />

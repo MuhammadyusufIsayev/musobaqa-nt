@@ -29,7 +29,7 @@ const Header = () => {
         <Link className="px-[16px] border-r-[1px] text-[#70737C]" href="/blog">
           OUR BLOG
         </Link>
-        <Link className="px-[16px] text-[#70737C]" href="/contacts">
+        <Link className="px-[16px] text-[#70737C]" href="/contact">
           CONTACTS
         </Link>
       </div>
