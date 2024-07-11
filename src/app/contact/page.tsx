@@ -13,7 +13,6 @@ const Contact = () => {
     const { handleSubmit, formState: { errors }, control, reset } = useForm();
 
     const onSubmit = async (data: any) => {
-        // Form ma'lumotlarini qayta ishlash logikasini bu yerga yozing
         console.log(data);
         reset();
     };
